@@ -19,8 +19,6 @@ local ohString2 = "Units"
 
 game:GetService("ReplicatedStorage").Networking.AlertEvent:FireServer(ohString1, ohString2)
 wait()
-game:GetService("ReplicatedStorage").Networking.CodesEvent:FireServer("DELAY") 
-game:GetService("ReplicatedStorage").Networking.CodesEvent:FireServer("RELEASE")
 game:GetService("ReplicatedStorage").Networking.CodesEvent:FireServer("300KPLAYERS")
 game:GetService("ReplicatedStorage").Networking.CodesEvent:FireServer("AV500KLIKES")
 game:GetService("ReplicatedStorage").Networking.CodesEvent:FireServer("25MVISITS")
@@ -172,42 +170,50 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Networking.Quests.ClaimQuest:FireServer(unpack(args))
+wait(0.5)
 local args = {
     [1] = "Summoner I"
 }
 
 game:GetService("ReplicatedStorage").Networking.Quests.ClaimQuest:FireServer(unpack(args))
+wait(0.5)
 local args = {
     [1] = "Unit Collector I"
 }
 
 game:GetService("ReplicatedStorage").Networking.Quests.ClaimQuest:FireServer(unpack(args))
+wait(0.5)
 local args = {
     [1] = "Unit Collector II"
 }
 
 game:GetService("ReplicatedStorage").Networking.Quests.ClaimQuest:FireServer(unpack(args))
+wait(0.5)
 local args = {
     [1] = "Claim",
     [2] = 1
 }
 
 game:GetService("ReplicatedStorage").Networking.DailyRewardEvent:FireServer(unpack(args))
+wait(0.5)
 local args = {
     [1] = "ClaimAll"
 }
 
 game:GetService("ReplicatedStorage").Networking.Units.CollectionEvent:FireServer(unpack(args))
+wait(0.5)
 local args = {
     [1] = "Weekly Summon I"
 }
 
 game:GetService("ReplicatedStorage").Networking.Quests.ClaimQuest:FireServer(unpack(args))
+wait(0.5)
 local args = {
     [1] = "Weekly Summon II"
 }
 
 game:GetService("ReplicatedStorage").Networking.Quests.ClaimQuest:FireServer(unpack(args))
+wait(0.5)
 local args = {
     [1] = "Weekly Big Spender I"
 }
