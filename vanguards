@@ -38,126 +38,126 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Networking.Units.SummonEvent:FireServer(unpack(args))
-wait(0.5)
+wait(0.8)
 local args = {
     [1] = "SummonTen",
     [2] = "Special"
 }
 
 game:GetService("ReplicatedStorage").Networking.Units.SummonEvent:FireServer(unpack(args))
-wait(0.5)
+wait(0.8)
 local args = {
     [1] = "SummonTen",
     [2] = "Special"
 }
 
 game:GetService("ReplicatedStorage").Networking.Units.SummonEvent:FireServer(unpack(args))
-wait(0.5)
+wait(0.8)
 local args = {
     [1] = "SummonTen",
     [2] = "Special"
 }
 
 game:GetService("ReplicatedStorage").Networking.Units.SummonEvent:FireServer(unpack(args))
-wait(0.5)
+wait(0.8)
 local args = {
     [1] = "SummonTen",
     [2] = "Special"
 }
 
 game:GetService("ReplicatedStorage").Networking.Units.SummonEvent:FireServer(unpack(args))
-wait(0.5)
+wait(0.8)
 local args = {
     [1] = "SummonTen",
     [2] = "Special"
 }
 
 game:GetService("ReplicatedStorage").Networking.Units.SummonEvent:FireServer(unpack(args))
-wait(0.5)
+wait(0.8)
 local args = {
     [1] = "SummonTen",
     [2] = "Special"
 }
 
 game:GetService("ReplicatedStorage").Networking.Units.SummonEvent:FireServer(unpack(args))
-wait(0.5)
+wait(0.8)
 local args = {
     [1] = "SummonTen",
     [2] = "Special"
 }
 
 game:GetService("ReplicatedStorage").Networking.Units.SummonEvent:FireServer(unpack(args))
-wait(0.5)
+wait(0.8)
 local args = {
     [1] = "SummonTen",
     [2] = "Special"
 }
 
 game:GetService("ReplicatedStorage").Networking.Units.SummonEvent:FireServer(unpack(args))
-wait(0.5)
+wait(0.8)
 local args = {
     [1] = "SummonTen",
     [2] = "Special"
 }
 
 game:GetService("ReplicatedStorage").Networking.Units.SummonEvent:FireServer(unpack(args))
-wait(0.5)
+wait(0.8)
 local args = {
     [1] = "SummonTen",
     [2] = "Special"
 }
 
 game:GetService("ReplicatedStorage").Networking.Units.SummonEvent:FireServer(unpack(args))
-wait(0.5)
+wait(0.8)
 local args = {
     [1] = "SummonTen",
     [2] = "Special"
 }
 
 game:GetService("ReplicatedStorage").Networking.Units.SummonEvent:FireServer(unpack(args))
-wait(0.5)
+wait(0.8)
 local args = {
     [1] = "SummonTen",
     [2] = "Special"
 }
 
 game:GetService("ReplicatedStorage").Networking.Units.SummonEvent:FireServer(unpack(args))
-wait(0.5)
+wait(0.8)
 local args = {
     [1] = "SummonTen",
     [2] = "Special"
 }
 
 game:GetService("ReplicatedStorage").Networking.Units.SummonEvent:FireServer(unpack(args))
-wait(0.5)
+wait(0.8)
 local args = {
     [1] = "SummonTen",
     [2] = "Special"
 }
 
 game:GetService("ReplicatedStorage").Networking.Units.SummonEvent:FireServer(unpack(args))
-wait(0.5)
+wait(0.8)
 local args = {
     [1] = "SummonTen",
     [2] = "Special"
 }
 
 game:GetService("ReplicatedStorage").Networking.Units.SummonEvent:FireServer(unpack(args))
-wait(0.5)
+wait(0.8)
 local args = {
     [1] = "SummonTen",
     [2] = "Special"
 }
 
 game:GetService("ReplicatedStorage").Networking.Units.SummonEvent:FireServer(unpack(args))
-wait(0.5)
+wait(0.8)
 local args = {
     [1] = "SummonTen",
     [2] = "Special"
 }
 
 game:GetService("ReplicatedStorage").Networking.Units.SummonEvent:FireServer(unpack(args))
-wait(0.5)
+wait(0.8)
 local args = {
     [1] = "SummonTen",
     [2] = "Special"
