@@ -19,8 +19,6 @@ local ohString2 = "Units"
 
 game:GetService("ReplicatedStorage").Networking.AlertEvent:FireServer(ohString1, ohString2)
 wait()
-game:GetService("ReplicatedStorage").Networking.CodesEvent:FireServer("DELAY") 
-game:GetService("ReplicatedStorage").Networking.CodesEvent:FireServer("RELEASE")
 game:GetService("ReplicatedStorage").Networking.CodesEvent:FireServer("300KPLAYERS")
 game:GetService("ReplicatedStorage").Networking.CodesEvent:FireServer("AV500KLIKES")
 game:GetService("ReplicatedStorage").Networking.CodesEvent:FireServer("25MVISITS")
