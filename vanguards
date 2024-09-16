@@ -199,6 +199,21 @@ local args = {
 
 game:GetService("ReplicatedStorage").Networking.Units.CollectionEvent:FireServer(unpack(args))
 local args = {
+    [1] = "Weekly Summon I"
+}
+
+game:GetService("ReplicatedStorage").Networking.Quests.ClaimQuest:FireServer(unpack(args))
+local args = {
+    [1] = "Weekly Summon II"
+}
+
+game:GetService("ReplicatedStorage").Networking.Quests.ClaimQuest:FireServer(unpack(args))
+local args = {
+    [1] = "Weekly Big Spender I"
+}
+
+game:GetService("ReplicatedStorage").Networking.Quests.ClaimQuest:FireServer(unpack(args))
+local args = {
     [1] = "SaveTutorial",
     [2] = "TraitsTutorial"
 }
@@ -230,4 +245,19 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Networking.Units.SummonEvent:FireServer(unpack(args))
+wait(1.1)
+local args = {
+    [1] = "SummonTen",
+    [2] = "Special"
+}
+
+game:GetService("ReplicatedStorage").Networking.Units.SummonEvent:FireServer(unpack(args))
+wait(1.1)
+local args = {
+    [1] = "SummonTen",
+    [2] = "Special"
+}
+
+game:GetService("ReplicatedStorage").Networking.Units.SummonEvent:FireServer(unpack(args))
+
 
