@@ -20,6 +20,7 @@ local ohString2 = "Units"
 game:GetService("ReplicatedStorage").Networking.AlertEvent:FireServer(ohString1, ohString2)
 wait()
 game:GetService("ReplicatedStorage").Networking.CodesEvent:FireServer("70MVISITS")
+game:GetService("ReplicatedStorage").Networking.CodesEvent:FireServer("THXFOR1MLIKES")
 game:GetService("ReplicatedStorage").Networking.CodesEvent:FireServer("100MVISITS")
 game:GetService("ReplicatedStorage").Networking.CodesEvent:FireServer("800KLIKES")
 game:GetService("ReplicatedStorage").Networking.CodesEvent:FireServer("600KLIKES")
