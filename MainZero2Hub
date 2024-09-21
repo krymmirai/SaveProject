@@ -1,0 +1,47 @@
+local lp = game.Player.LocalPlayer
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+    end
+    wait()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+--UI Library Window
+
+local Window = Library.CreateLib("Zero2 Hub / NameGame", "DarkTheme")
+local status = Window:NewTab("Status")
+local Misc = Window:Newtab("Misc")
+
+--status
+local stat = status:NewSection("Status")
+stat:NewLabel("Name : ".. game.Players.LocalPlayer.Character.Name .." [Dev]")
+stat:NewLabel("PlaceID : ".. game.PlaceId .."")
+stat:NewButton("Copy PlaceId", "ButtonInfo", function()
+    setclipboard(game.PlaceId)
+end)
+stat:NewLabel("JobID : ".. game.JobId .."")
+stat:NewButton("Copy JobId", "ButtonInfo", function()
+    setclipboard(game.JobId)
+end)
+stat:NewLabel("Script Make By SadThudatinh (Owner)")
+stat:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.KeypadZero, function()
+	Library:ToggleUI()
+end)
+Local etc = Misc:NewSection("Misc")
+getgenv().Name = true
+    etc:NewToggle("Name String", "bruh", function(a1)
+        getgenv().Name = a1
+        if a1 then
+            doName();
+        end
+    end)
+    
+    function doName()
+        spawn(function()
+            while athief == true do
+                local args = {[1] = 1}
+                -- String Script do() or Script
+                wait()
+            end
+        end)
+     end
+
+
